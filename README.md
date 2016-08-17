@@ -149,7 +149,7 @@ Por otro lado, para el segundo esquema anterior (online), se quiere poder config
 2. La solución debe quedar abierta para extensión y cerrada para modificación. Es decir, debe permitir (sólo creando nuevos Beans y ajustando la inyección de dependencias donde corresponda):
 	* Agregar nuevos esquemas de persistencia.
 	* Agregar nuevas fuentes de datos de errores.
-	* Agregar nuevas estrategias de sustitución de errores  (sólo cuando se haga uso de las fuentes de datos en línea).
+	* Agregar nuevas estrategias de sustitución de errores adicionales a las ya existentes (sólo cuando se haga uso de las fuentes de datos en línea).
 	
 3. Diseño de la solución:
 	* El diseño debe permitir un único punto de creación de Beans.
